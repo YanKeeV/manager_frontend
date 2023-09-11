@@ -1,0 +1,64 @@
+.ProfileContainer{
+    width: 26%;
+    height: 85%;
+    background-color: #464646;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 25% 10% 525px;
+    grid-template-columns: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ProfileUserInfo{
+    width: 100%;
+    height: 30px;
+    background: none;
+    color: #7A7A7A;
+    border: none;
+    border-bottom: 5px solid #232323;
+    font-size: 24px;
+    color: white;
+}
+
+.GridTable{
+    background-color: #696969;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 400px;
+}
+
+.GridHeader{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.LogOutButton{
+    margin-top: 20px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 6px solid #232323;
+    font-size: 36px;
+    cursor: pointer;
+    transition: border-color 0.5s;
+}
+
+.LogOutButton:hover{
+    border-color: #fff;
+}
+
+.editProfileImage{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 90px;
+    right: 155px;
+    cursor: pointer;
+}

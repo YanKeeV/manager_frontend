@@ -1,0 +1,21 @@
+.ProjectPageContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+   
+}
+
+
+.ProjectPageTop{
+    height: 30vh;
+    width: 100vw;
+}
+
+.ProjectPageBottom{
+    height: 55vh;
+    width: 100vw;
+}
+

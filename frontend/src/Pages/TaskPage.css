@@ -1,0 +1,60 @@
+.TaskPageContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   overflow-x: hidden;
+}
+
+.createPart{
+    width: 98vw;
+    height: 10vh;
+    background-color: #696969;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.TaskButton{
+    border:3px solid black;
+    color: white;
+    background: none;
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.TaskDescription::-webkit-scrollbar{
+    border-radius: 3px;
+    width: 7px;
+    background-color: #7A7A7A;
+}
+
+.TaskDescription::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 3px;
+  }
+
+.ExecutorSelect{
+  
+    width:'13%';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
